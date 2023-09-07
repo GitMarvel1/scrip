@@ -1,1 +1,1 @@
-forfiles /S /M * /C “cmd /c if @fsize GEQ 1073741824 echo @path > largefiles.txt
+﻿forfiles /S /M * /C “cmd /c if @fsize GEQ 1073741824 echo @fdate @path @fsize > largefiles.txt
