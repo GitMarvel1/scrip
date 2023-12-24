@@ -1,0 +1,4 @@
+The script required installation of two modules named py-cpuinfo and psutil. Primarily pip had to be installed.
+1. sudo apt install python3-pip
+2.python3 -m pip install psutil
+3.pip install py-cpuinfo

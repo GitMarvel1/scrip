@@ -1,0 +1,1 @@
+hostname;echo;date;echo;w|grep load|cut -d "," -f3-6;echo;echo "CPU "$(cat /proc/cpuinfo |grep "model name"|uniq);echo "Number of processors :"$(cat /proc/cpuinfo|grep processor|wc -l);echo;ps aux --sort=-%cpu|head -3
